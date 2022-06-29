@@ -1,5 +1,7 @@
-teste php
-
 <?php
-phpinfo( );
+
+$command = "ls -l";
+
+$output = exec($command);
+
 ?>
