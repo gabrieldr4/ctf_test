@@ -1,0 +1,7 @@
+<?php
+
+$command = "ls -l";
+
+$output = exec($command);
+
+?>
